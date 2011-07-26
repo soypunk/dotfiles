@@ -29,3 +29,10 @@ alias la="ls -a"
 alias bb="bbedit"
 alias bbf="bbfind"
 alias bbd="bbdiff"
+
+# ============================================================================
+# Virtualenv
+# ============================================================================
+
+export WORKON_HOME=~/envs
+source /usr/local/bin/virtualenvwrapper.sh
