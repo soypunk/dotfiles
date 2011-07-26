@@ -2,4 +2,11 @@
 	name = Shawn Medero
 	email = soypunk@gmail.com
 [core]
-	excludesfile = /Users/smedero/.gitignore
+	excludesfile = ~/.gitignore
+	editor = bbedit --wait --resume
+[diff]
+    tool = "bbdiff"
+[difftool]
+    prompt = false
+[difftool "bbdiff"]
+    cmd = /usr/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE
