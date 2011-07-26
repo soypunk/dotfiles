@@ -4,9 +4,11 @@
 [core]
 	excludesfile = ~/.gitignore
 	editor = bbedit --wait --resume
+[github]
+	user = soypunk
 [diff]
-    tool = "bbdiff"
+	tool = "bbdiff"
 [difftool]
-    prompt = false
+	prompt = false
 [difftool "bbdiff"]
-    cmd = /usr/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE
+	cmd = /usr/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE"
