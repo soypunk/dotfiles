@@ -1,0 +1,5 @@
+[user]
+	name = Shawn Medero
+	email = soypunk@gmail.com
+[core]
+	excludesfile = /Users/smedero/.gitignore
