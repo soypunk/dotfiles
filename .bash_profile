@@ -3,7 +3,10 @@
 # ============================================================================
 
 if [ -d "$HOME/bin" ] ; then
- PATH="$PATH:$HOME/bin"
+	export PATH="$HOME/bin:$PATH"
+fi
+if [ -d "/usr/local/mysql/bin" ] ; then
+	export PATH="/usr/local/mysql/bin:$PATH"
 fi
 
 export PS1="\w$ "
@@ -29,6 +32,9 @@ alias la="ls -a"
 alias bb="bbedit"
 alias bbf="bbfind"
 alias bbd="bbdiff"
+
+alias mysql_start="sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
+alias mysql_stop="sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
 
 # ============================================================================
 # Virtualenv
