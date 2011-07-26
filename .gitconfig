@@ -11,7 +11,7 @@
 [difftool]
 	prompt = false
 [difftool "bbdiff"]
-	cmd = /usr/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE"
+	cmd = /usr/local/bin/bbdiff --wait --resume "$LOCAL" "$REMOTE"
 [alias]
 	st = status
 	ci = commit
