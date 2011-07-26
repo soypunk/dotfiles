@@ -23,6 +23,7 @@ export VISUAL="bbedit"
 # Aliases
 # ============================================================================
 
+alias ls="ls -l"
 alias la="ls -a"
 
 alias bb="bbedit"
