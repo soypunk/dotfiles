@@ -2,6 +2,10 @@
 # Basic Config
 # ============================================================================
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+export PATH="${JAVA_HOME}/bin:$PATH"
+
 if [ -d "$HOME/bin" ] ; then
 	export PATH="$HOME/bin:$PATH"
 fi
