@@ -14,6 +14,10 @@ shopt -s histappend
 
 bind '"\e[A"':history-search-backward
 bind '"\e[B"':history-search-forward
+bind 'set completion-ignore-case on'
+
+export EDITOR="bbedit"
+export VISUAL="bbedit"
 
 # ============================================================================
 # Aliases
