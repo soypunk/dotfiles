@@ -2,9 +2,8 @@
 # Basic Config
 # ============================================================================
 
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-export PATH="${JAVA_HOME}/bin:$PATH"
+#export JAVA_HOME=$(/usr/libexec/java_home)
+#export PATH="${JAVA_HOME}/bin:$PATH"
 
 if [ -d "$HOME/bin" ] ; then
 	export PATH="$HOME/bin:$PATH"
@@ -13,7 +12,7 @@ if [ -d "/usr/local/mysql/bin" ] ; then
 	export PATH="/usr/local/mysql/bin:$PATH"
 fi
 
-export PS1="\w$ "
+export PS1="\u@\H \w\n\$ "
 
 export HISTCONTROL=erasedups
 export HISTSIZE=10000
@@ -36,12 +35,12 @@ alias bb="bbedit"
 alias bbf="bbfind"
 alias bbd="bbdiff"
 
-alias mysql_start="sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
-alias mysql_stop="sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
+#alias mysql_start="sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
+#alias mysql_stop="sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist"
 
 # ============================================================================
 # Virtualenv
 # ============================================================================
 
 export WORKON_HOME=~/envs
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
