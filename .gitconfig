@@ -1,6 +1,6 @@
 [user]
 	name = Shawn Medero
-	email = soypunk@gmail.com
+	email = shawn@medero.net
 [core]
 	excludesfile = ~/.gitignore
 	editor = bbedit --wait --resume
