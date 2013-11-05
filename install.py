@@ -5,6 +5,8 @@ and replace with symlinks to files in DOTFILES folder.
 
 Credits:
 99.5% of this code is from "make_links.py", Copyright 2010 Stephen A. Goss
+
+original source: https://raw.github.com/deliciousrobots/dotfiles/master/make_links.py
 """
 import os
 import shutil
