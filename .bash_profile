@@ -31,6 +31,9 @@ export VISUAL="bbedit"
 alias ls="ls -l"
 alias la="ls -a"
 
+# Reduce top cpu usage: http://hints.macworld.com/article.php?story=20040213045335693
+alias ttop="top -ocpu -R -F -s 2 -n30"
+
 alias bb="bbedit"
 alias bbf="bbfind"
 alias bbd="bbdiff"
